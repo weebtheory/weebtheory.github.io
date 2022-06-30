@@ -1,6 +1,9 @@
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 
+h1:link { text-decoration: none; }
+h1:visited { text-decoration: none; }
+
 body {
   background-color: #4B5B71;
   margin: 0;
@@ -93,6 +96,14 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.thumbnail-image {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .article {
