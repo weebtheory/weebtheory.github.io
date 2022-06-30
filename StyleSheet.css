@@ -1,0 +1,116 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+body {
+  background-color: #4B5B71;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.navbar {
+  padding: 10px 0 10px 0;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 20px;
+  grid-template-rows: 40px;
+  grid-column-gap: 30px;
+  background-color: #3E90F9;
+}
+
+.navbar-leader {
+  font-family: Georgia, 'Source Sans Pro', sans-serif;
+  margin: 7px 0 0 30px;
+}
+
+.navbar-box {
+  padding: 5px 0 5px 0;
+  font-family: Georgia, 'Source Sans Pro', sans-serif;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4B5B71;
+  border: 3px 3px 3px 3px;
+  text-align: center;
+  background-color: #3E90F9;
+  color: white !important;
+  transition: background 350ms ease;
+}
+
+.navbar-box:hover {
+  text-align: center;
+  background-color: white;
+  border-color: #4B5B71;
+  color: #4B5B71 !important;
+
+}
+
+.main-body {
+  background-color: white;
+  margin: 75px 200px 75px 200px;
+  padding: 10px 20px 10px 20px;
+  min-height: 600px;
+}
+
+.button-box {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  background-color: #FF816D;
+  padding: 4px 4px 4px 4px;
+  margin: 0 10px 0 10px;
+  color: white !important;
+  transition: background 350ms ease;
+}
+
+.date-box{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  background-color: silver;
+  padding: 4px 4px 4px 4px;
+  color: white !important;
+  transition: background 350ms ease;
+}
+
+.button-box:hover {
+  text-align: center;
+  background-color: #D6280D;
+  color: white !important;
+}
+
+.header-box {
+  text-align: center;
+  border-style: groove;
+  border-width: 6px;
+}
+
+.blog-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.article {
+  margin: 25px 25px 75px 25px;
+  padding: 5px 25px 10px 25px;
+  background-color: #E7E7E7;
+  min-height: 500px;
+}
+
+/* Footer */
+.footer-content {
+  background-color: silver;
+  text-align: center;
+  font-family: Noto Sans JP, monospace;
+  min-height: 175px;
+}
+.footer-links {
+  margin: 0 25px 0 0px;
+  color: black;
+  font-family: Noto Sans JP, monospace;
+}
