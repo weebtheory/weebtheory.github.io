@@ -52,7 +52,7 @@ p {
   background-color: white;
   margin: 5vh 5vw 5vh 5vw;
   padding: 10px 20px 10px 20px;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 .article {
@@ -125,4 +125,23 @@ p {
   margin: 0 1vw 0 1vw;
   color: black;
   font-family: Noto Sans JP, monospace;
+}
+
+@media (max-width: 550px) {
+  .thumbnail-image {
+    width: 100%;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .main-body {
+    background-color: white;
+    min-height: 700px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
